@@ -1,0 +1,12 @@
+groups:
+  - name: Ramco monitoring
+    rules:
+      - alert: Ramco
+        expr: probe_success == 0
+        for: 10s
+        labels:
+          severity: critical
+        annotations:
+         summary: "Ramco is down"
+         description: "The website {{ $labels.instance }} is not reachable"
+
