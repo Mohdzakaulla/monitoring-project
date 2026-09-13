@@ -68,6 +68,8 @@ monitoring-project/
 ├── grafana/
 └── README.md
 ```
+## image
+![monitoring dashboard image](https://github.com/Mohdzakaulla/monitoring-project/blob/main/grafana-dashboard.png?raw=true)
 
 ## Author
 
